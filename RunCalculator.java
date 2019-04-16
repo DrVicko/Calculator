@@ -57,16 +57,16 @@ public class RunCalculator {
 			}
 			else if (selection == 5)
 			{
-				System.out.println("Unesite prvi broj: ");
+				System.out.println("Unesite zeljeni broj: ");
 				broj1 = input.nextInt(); 
 				int rezultat = calculations.korjenovanje(broj1); 
 				System.out.println("Korijen broja " + broj1 +  " iznosi " + rezultat);
 			}
 			else if (selection == 6)
 			{
-				System.out.println("Unesite prvi broj: ");
+				System.out.println("Unesite zeljeni broj: ");
 				broj1 = input.nextInt(); 
-				System.out.println("Unesite drugi broj: ");
+				System.out.println("Unesite kvadrat za navedeni broj: ");
 				broj2 = input.nextInt(); 
 				int rezultat = calculations.kvadratiranje(broj1, broj2); 
 				System.out.println(broj2 + " kvadrat broja " + broj1 + " iznosi " + rezultat);
