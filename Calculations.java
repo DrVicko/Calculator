@@ -2,7 +2,6 @@ package Calculator;
 
 public class Calculations 
 {
-	Calculator calculator = new Calculator (); 
 	
 	public int sabiranje (int broj1, int broj2)
 	{
